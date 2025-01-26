@@ -1,7 +1,7 @@
-let score = "33sbj"
+//let score = "33sbj"
 //console.log(typeof score)
 
-let valueInNumber = Number(score)
+//let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber)
 
@@ -21,5 +21,37 @@ let booleanIsloggedin = Boolean (IsloggedIn)
 
 let someNumber = 77
 
-let stringNumber = string(someNumber)
-console.log (stringNumber);
+let stringNumber = String (someNumber)
+//console.log(stringNumber);
+//console.log(typeof stringNumber)
+
+let score = 33
+
+let valueInNumber = Number(score)
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber)
+
+
+//******************************operations******************************* */
+
+let value = 2
+let negvalue = -value
+//console.log(negvalue)
+
+let str1 = "hello"
+let str2 = " lucky"
+
+let str3 = str1 + str2
+//console.log(str3)
+
+
+// starting main string hai to sabko string hi manenge or akhiri main hai to phele conversion and then string
+
+// console.log("1" + 2 );
+// console.log(1 + "2");
+// console.log("1" + 2 + 2 );
+// console.log(1 + 2 + "2");
+
+let gameCounter = 700
+++ gameCounter;
+console.log(gameCounter);
